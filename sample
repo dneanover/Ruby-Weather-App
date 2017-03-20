@@ -1,0 +1,5 @@
+require 'httparty'
+
+response = HTTParty.get("http://api.wunderground.com/api/50c6ea4e34244d15/geolookup/q/94107.json")
+
+puts response
