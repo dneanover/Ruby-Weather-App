@@ -1,6 +1,6 @@
-#Weather Application ReadMe
+# Weather Application ReadMe
 
-###How to Get Your Current Weather Report
+### How to Get Your Current Weather Report
 1. Clone this Git Repository onto your local machine.
 2. Sign up as a *Developer* from `https://www.wunderground.com/weather/api/`
 3. In *current_conditions.rb* on your local machine replace `ENV['SECRET_KEY']` with your API key from Wunderground.
@@ -8,7 +8,7 @@
 * Note that if the zip code does not have a city associated with it, the program will not work.
 5. To look up another zip code, rerun the program.
 
-###Variables used in the Weather Report
+### Variables used in the Weather Report
 The Weather Report delivered in `weatherreport.rb` is for the current conditions in a zipcode.
 * Zipcode (String)
 * City (String)
