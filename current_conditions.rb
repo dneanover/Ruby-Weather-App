@@ -28,4 +28,5 @@ class CurrentConditions
     response = HTTParty.get("http://api.wunderground.com/api/#{token}/conditions/q/#{@zip}.json")
   end
 
+  #v2 would have created a solution where it would have provided a solution for zipcodes without cities like 12346 (Thanks Alabama)
 end
